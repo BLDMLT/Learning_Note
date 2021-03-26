@@ -1,4 +1,17 @@
-
+**目录**
+<!-- TOC -->
+- [1.标题](#1标题)
+- [2.段落](#2段落)
+- [3.文字处理](#3文字处理)
+- [4.块引用](#4块引用)
+- [5. 清单列表](#5清单列表)
+- [6. 代码块和代码](#6代码块和代码)
+- [7. 图片](#7图片)
+- [8.水平线](#8水平线)
+- [9. 链接](#9链接)
+- [10. 公式和流程图](#10公式和流程图)
+- [11.参考资料](#11参考资料)
+<!-- TOC -->
 ### 1.标题
 
 # MD_Heading level 1
@@ -139,10 +152,11 @@ ___
 
 ---
 ### 10. 公式和流程图
+*注意：github貌似不支持显示，反正我是小白，没找到。。。
 行内$\Gamma(n)= (n-1)!\quad\forall n\in\mathbb N$  
 $$ x= \dfrac{-b \pm \sqrt{b^2-4ac}}[2a] $$
 
-```flow
+flow
 st=>start: Start
 op=>operation: Your Operation
 cond=>condition: Yes or No?
@@ -150,10 +164,10 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
-```
 
+---
 ### 11.参考资料
-Markdown入门有这一篇就够了：<https://www.jianshu.com/p/c6aa2f35d5ae>
-Markdown 入门参考: <https://xianbai.me/learn-md/index.html>
-Markdown数学公式语法：<https://www.jianshu.com/p/e74eb43960a1>
-用markdown来画流程图:<https://www.jianshu.com/p/02a5a1bf1096>
+Markdown入门有这一篇就够了：<https://www.jianshu.com/p/c6aa2f35d5ae>  
+Markdown 入门参考: <https://xianbai.me/learn-md/index.html>  
+Markdown数学公式语法：<https://www.jianshu.com/p/e74eb43960a1>  
+用markdown来画流程图:<https://www.jianshu.com/p/02a5a1bf1096>  
