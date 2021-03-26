@@ -142,7 +142,7 @@ ___
 行内$\Gamma(n)= (n-1)!\quad\forall n\in\mathbb N$  
 $$ x= \dfrac{-b \pm \sqrt{b^2-4ac}}[2a] $$
 
-flow
+```flow
 st=>start: Start
 op=>operation: Your Operation
 cond=>condition: Yes or No?
@@ -150,7 +150,7 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
-
+```
 
 ### 11.参考资料
 Markdown入门有这一篇就够了：<https://www.jianshu.com/p/c6aa2f35d5ae>
